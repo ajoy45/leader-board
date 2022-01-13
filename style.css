@@ -110,4 +110,22 @@ hr{
     height: 22px;
     text-align: center;
 }
+/* responsive style */
+/* mobile */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players,.blogs,.courses{
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+    }
+   
+    .blog,.player{
+        flex-direction: column;
+        align-items: center;
+    }
 
+
+    
+}
